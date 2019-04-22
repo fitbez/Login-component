@@ -1,0 +1,32 @@
+body {
+  background: #333;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 360px;
+  height: 600px;
+  background: url(pb.jpg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 40px;
+  margin-top: 125px;
+  margin-bottom: 60px;
+}
+
+.tbox {
+  width: 260px;
+  height: 40px;
+  background: #f1f1f1b3;
+  border-radius: 10px;
+  margin: 10px auto;
+}
